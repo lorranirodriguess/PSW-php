@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(106, 177, 227);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+main{
+    background-color: rgb(0, 85, 146);
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px #23286a6f;
+}
+
+main h1{
+    margin: 10px 0;
+}

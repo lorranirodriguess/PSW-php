@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Questao 07</title>
+</head>
+
+<style>
+
+    main{
+        margin-top: 100px;
+        color: #f6c342;
+        box-shadow: 12px 10px 20px #651f036c ;
+        border-radius: 30px;
+    }
+
+    input{
+        background-color: beige;
+        border: none;
+        padding: 4px;
+        margin-top: 4px;
+        border-radius: 8px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 60px;
+    }
+
+    .saiba-mais{
+        margin-top: 10px;
+        padding: 4px 20px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+</style>
+
+<body>
+    <main>
+        <img src="imagens/logo.png" alt="logo">
+        <h1>Olá, tudo bem?</h1>
+        <form action="cardapio.php" method="post">
+            <label for="nome">Informe seu nome</label>
+            <input type="text" name="nome" id="nome" required>
+            <input type="submit" value="Próximo" class="saiba-mais">
+        </form>
+    </main>
+</body>
+</html>
